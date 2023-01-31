@@ -13,14 +13,11 @@ if (a.Length < 3)
     Console.WriteLine("Третьей цифры нет");
 }
 else{
-
-
-string b = Convert.ToString(a[2]);
-Console.WriteLine($"{a} -> {b}");
+Console.WriteLine($"{a} -> {a[2]}");
 }
 
 /*
-// Делала до просмотра разбора дз в конце семинара.
+// Делала до просмотра разбора дз в конце семинара, не зная про обращение к строке:
 
 Console.Clear();
 string numString = Console.ReadLine();
