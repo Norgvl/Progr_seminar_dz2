@@ -1,0 +1,15 @@
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\bin\Debug\net6.0\Task_Matrix.exe
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\bin\Debug\net6.0\Task_Matrix.deps.json
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\bin\Debug\net6.0\Task_Matrix.runtimeconfig.json
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\bin\Debug\net6.0\Task_Matrix.dll
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\bin\Debug\net6.0\Task_Matrix.pdb
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\Task_Matrix.csproj.AssemblyReference.cache
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\Task_Matrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\Task_Matrix.AssemblyInfoInputs.cache
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\Task_Matrix.AssemblyInfo.cs
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\Task_Matrix.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\Task_Matrix.dll
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\refint\Task_Matrix.dll
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\Task_Matrix.pdb
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\Task_Matrix.genruntimeconfig.cache
+C:\Users\Vlad\Desktop\progr_seminar2_dz\Task_Matrix\obj\Debug\net6.0\ref\Task_Matrix.dll
