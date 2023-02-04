@@ -3,7 +3,7 @@
 //Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
 Console.Clear();
-Console.WriteLine("Print a five-digit number: ");
+Console.WriteLine("enter a five-digit number: ");
 string number = Console.ReadLine();
 
 int Con(string stNumber, int index1, int index2)
@@ -12,8 +12,17 @@ int Con(string stNumber, int index1, int index2)
     string b = Convert.ToString(stNumber[index2]);
     int a1 = Convert.ToInt32(a);
     int b1 = Convert.ToInt32(b);
-    int sum = a1 * 10 + b1;
-    return sum;
+    int c = 0;
+    if (a1 != b1)
+    {
+        int sum = a1 * 10 + b1;
+        return sum;
+    }
+    else
+    {
+        return c;
+
+    }
 }
 
 int sum1 = Con(number, 0, 1);
@@ -24,6 +33,7 @@ if (sum1 == sum2)
 {
     Console.WriteLine("Yes");
 }
+
 else
 {
     Console.WriteLine("No");
