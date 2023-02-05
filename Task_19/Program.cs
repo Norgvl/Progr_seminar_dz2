@@ -13,16 +13,9 @@ int Con(string stNumber, int index1, int index2)
     int a1 = Convert.ToInt32(a);
     int b1 = Convert.ToInt32(b);
     int c = 0;
-    if (a1 != b1)
-    {
-        int sum = a1 * 10 + b1;
-        return sum;
-    }
-    else
-    {
-        return c;
-
-    }
+    
+    int sum = a1 * 10 + b1;
+    return sum;
 }
 
 int sum1 = Con(number, 0, 1);
