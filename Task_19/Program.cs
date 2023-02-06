@@ -8,26 +8,21 @@ string number = Console.ReadLine();
 
 int Con(string stNumber, int index1, int index2)
 {
-    string a = Convert.ToString(stNumber[index1]);
-    string b = Convert.ToString(stNumber[index2]);
-    int a1 = Convert.ToInt32(a);
-    int b1 = Convert.ToInt32(b);
-    int c = 0;
-    
-    int sum = a1 * 10 + b1;
-    return sum;
+string a = Convert.ToString(stNumber[index1]);
+string b = Convert.ToString(stNumber[index2]);
+int result = Convert.ToInt32(a + b);
+return result;
 }
 
 int sum1 = Con(number, 0, 1);
 int sum2 = Con(number, 4, 3);
 
-
 if (sum1 == sum2)
 {
-    Console.WriteLine("Yes");
+Console.WriteLine("Yes");
 }
 
 else
 {
-    Console.WriteLine("No");
+Console.WriteLine("No");
 }
