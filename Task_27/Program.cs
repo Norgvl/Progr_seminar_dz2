@@ -3,26 +3,29 @@
 Console.Clear();
 Console.Write("Enter a number: ");
 string stNumber = Console.ReadLine();
-int sum = 0;
-if (Convert.ToInt32(stNumber) < 0 )
+
+int Count(string stNumber, int index)
 {
-    for (int i = 1; i < stNumber.Length; i++)
+int sum = 0;
+for (int i = index; i < stNumber.Length; i++)
     {
-        string b = Convert.ToString(stNumber[i]);
-        int c = Convert.ToInt32(b);
-        sum = sum + c;
+        string a = Convert.ToString(stNumber[i]);
+        int b = Convert.ToInt32(a);
+        sum = sum + b;
 
     }
+    return sum;
+}
+
+if (Convert.ToInt32(stNumber) < 0 )
+{
+   int sum = Count(stNumber, 1);
+   Console.WriteLine(stNumber + " --> " + sum);
 }
 
 else
 {
-    for (int i = 0; i < stNumber.Length; i++)
-    {
-        string b = Convert.ToString(stNumber[i]);
-        int c = Convert.ToInt32(b);
-        sum = sum + c;
-
-    }
+    int sum = Count(stNumber, 0);
+    Console.WriteLine(stNumber + " --> " + sum);
 }
-Console.WriteLine(stNumber + " --> " + sum);
+
