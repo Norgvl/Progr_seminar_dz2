@@ -15,3 +15,4 @@ void FillAndPrintArr(int[] arr)
 }
 
 FillAndPrintArr(arr);
+Console.WriteLine($"[{String.Join(", ", arr)}]");
