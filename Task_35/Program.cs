@@ -25,13 +25,11 @@ void FillAndWriteArr(int[] arr)
 int CountNumber(int[] arr)
 {
     int count = 0;
-    for (int i = 0; i < arr.Length; i++)
+    foreach (int el in arr)
     {
-        if (arr[i] >= 10 && arr[i] <= 99)
+        if (el >= 10 && el <= 99)
         {
             count++;
-           
-
         }
     }
     return count;

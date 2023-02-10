@@ -11,19 +11,19 @@ void FillAndWriteArr(double[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = new Random().Next(0, 100);
-        Console.Write(arr[i]+" ");
+        arr[i] = new Random().Next(0, 100) + new Random().NextDouble();
+        Console.Write($"{arr[i]:f3} ");
     }
 }
 
 double FindMin(double[] arr)
 {
     double min = arr[0];
-    for (int i = 0; i < arr.Length; i++)
+    foreach (double el in arr)
     {
-        if (arr[i] < min)
+        if (el < min)
         {
-            min = arr[i];
+            min = el;
 
         }
     }
@@ -33,11 +33,11 @@ double FindMin(double[] arr)
 double FindMax(double[] arr)
 {
     double max = arr[0];
-    for (int i = 0; i < arr.Length; i++)
+    foreach (double el in arr)
     {
-        if (arr[i] > max)
+        if (el > max)
         {
-            max = arr[i];
+            max = el;
 
         }
     }
@@ -47,4 +47,5 @@ double FindMax(double[] arr)
 FillAndWriteArr(arr);
 double min = FindMin(arr);
 double max = FindMax(arr);
-Console.WriteLine($" -> {max - min}");
+double diff = max - min;
+Console.WriteLine($" -> {diff:f3}");

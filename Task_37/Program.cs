@@ -7,18 +7,21 @@
 // [6 7 3 6]-> 36 21
 
 Console.Clear();
-Console.Write("Enter the array size: ");
-int size = int.Parse(Console.ReadLine());
-int[] arr = new int[size];
+Console.Write("Enter the array elements separated by spaces: ");
+string elements = Console.ReadLine();
 
-void FillAndWriteArr(int[] arr)
+int[] FillArr(string elements)
 {
-    for (int i = 0; i < arr.Length; i++)
-    {
-        arr[i] = new Random().Next(0, 10);
+    string[] stArr = elements.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+    int[] array = new int[stArr.Length];
 
-    }
-    Console.Write($"[{String.Join(", ", arr)}]");
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = int.Parse(stArr[i]);
+
+    }  
+    return array;
+
 }
 
 int[] CountNewArr(int[] arr)
@@ -49,6 +52,6 @@ int[] CountNewArr(int[] arr)
     }
     return list;
 }
-FillAndWriteArr(arr);
+int[] arr = FillArr(elements);
 int[] mas = CountNewArr(arr);
-Console.WriteLine($" -> [{String.Join(", ", mas)}]");
+Console.WriteLine($"-> [{String.Join(", ", mas)}]");
