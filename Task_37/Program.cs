@@ -55,3 +55,4 @@ int[] CountNewArr(int[] arr)
 int[] arr = FillArr(elements);
 int[] mas = CountNewArr(arr);
 Console.WriteLine($"-> [{String.Join(", ", mas)}]");
+
