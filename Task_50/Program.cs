@@ -19,10 +19,12 @@ int s2 = new Random().Next(2,8);
 double[,] arr = new double[s1,s2];
 FillAndWriteArr(arr);
 
-Write("Строки: ");
-int m = int.Parse(ReadLine());
-Write("Столбцы: ");
-int n = int.Parse(ReadLine());
+Write("Введите индекс элемента через пробел: ");
+
+string index = ReadLine();
+string[] indexArr = index.Split(" ", StringSplitOptions.RemoveEmptyEntries); 
+int m = int.Parse(indexArr[0]);
+int n = int.Parse(indexArr[1]);
 CheckElement(arr, m, n);
 
 void FillAndWriteArr(double[,] arr)
